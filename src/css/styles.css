@@ -1,0 +1,187 @@
+/* header*/
+header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  .nav:nth-child(3) {
+    min-height: 2rem;
+    max-width: 50rem;
+  }
+  
+  .logo {
+    border-radius: 150px;
+  }
+
+#name{
+        font-family: 'Dancing Script', cursive;
+}
+body { padding:20px;}
+/*sliding part*/
+
+.sliding > h2 {
+    align-self: center;
+    grid-column: span 3;
+    justify-self: center;
+  }
+ 
+.sliding > a{
+    grid-column: 1 / 3;
+    justify-self: center;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .left {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    justify-self: start;
+  }
+  
+  .right {
+    justify-self: end;
+  }
+  #blockquote{
+    position: static;
+    color:white;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    grid-column: 1 / 3;
+    grid-row: 2/3;
+    margin-left: 15rem;
+    margin-bottom: 3rem;
+}
+
+h2{
+    font-family: 'Dosis', sans-serif;}
+li, p,article{
+    font-family: 'DM Sans', sans-serif;
+        text-align: justify;}
+/*footer*/
+footer{
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align:left;
+}
+.quicklinks > a{
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    text-decoration: none;
+    gap: 2px;
+}
+.social-media > a{
+    display:inline-block;
+    margin: 10px;
+    gap: 50px
+}
+.contact-item{
+    display:flex;
+    align-items: center;
+    margin-bottom:10px;
+}
+/*home*/
+#Tophome {
+    background-image: url(../Images/Home.webp);
+    background-size: cover;
+    height:400px;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-column-gap:47px;
+    align-content: center;
+  }
+  
+/*hobby*/
+#Tophobby{
+    background-image: url(../Images/hobby.jpg);
+    background-size: cover;
+    height:400px;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-column-gap:47px;
+    align-content: center;
+}
+
+/* places visited*/
+#Topplacesvisited{
+    background-image: url(../Images/Travel.jpg);
+    background-size: cover;
+    height:400px;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-column-gap:33rem;
+    align-content: center;
+}
+#blockquotep {
+  position: static;
+    color: white;
+    font-size: x-large;
+    font-family: cursive;
+    text-align: center;
+    grid-column: 1 / 3;
+    grid-row: 2/3;
+    margin-left: 80%;
+    margin-bottom: 3rem;
+}
+
+/*books read*/
+#Topbooks{
+    background-image: url(../Images/Books.jpg);
+    background-size: cover;
+    height:400px;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-column-gap:47px;
+    align-content: center;
+}
+table{
+    border-collapse: collapse;
+    width:100%;
+    margin:10px;
+    border: 50rem saddlebrown;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color:antiquewhite;
+}
+tr:nth-child(even){
+    background-color: aliceblue;
+}
+.bookname-cover{display: inline-flex;
+    gap:50px;
+}
+/*contributions*/
+
+#Topcontributions{
+    background-image: url(../Images/contibutions.jpg);
+    background-size: cover;
+    height:400px;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-column-gap:33rem;
+    align-content: center;
+    opacity:0.7;
+}
